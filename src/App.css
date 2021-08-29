@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+
+html, body {
+		width: 100vm !important;
+		padding: 0 !important;
+}
+.App {
+  text-align: left;
+	font-family: 'Hina Mincho', serif;
+	align-items: center;
+	overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+	color: black;
+		width: 100vm;
+		  background-color: #f5f1ed;
+
+}
+
+ h5 {
+	 font-weight: 400;
+	 font-size: 35px;
+ }
+ p {
+	 font-weight: 200;
+ }
+
+
+@media (min-width: 1201px) {
+	.App {
+	    padding-left: 0 !important;
+		padding-right: 0%;
+		padding-bottom: 0%;
+		padding-top: 0%;
+
+	}
+	.accent1 {
+	  animation: easeinheader ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.accent2 {
+		animation: easeinheader ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+}
+
+@media (max-width: 1200px) {
+
+	.App {
+	    padding-left: 3%;
+		padding-right: 3%;
+	}
+	.break {
+	display: none;
+}
+.exploree {
+	margin-left: -3.5% !important;
+	margin-right: -3.5% !important;;
+}
+.App {
+overflow-x: hidden !important;}
+
+.p-manifesto {
+	font-size: 19px !important;
+}
+h5 {
+	font-size: 27px;
+}
+
+}
+
+.moving {
+	margin-top: 35px;
+	margin-bottom: 15px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+ 
+@media (prefers-reduced-motion: preference) {
+	.moving {
+		display: none;
+	}
+	.still {
+		display: inheret;
+	}
+}
+
+.still {
+	display: none;
+}
+
+.App-header {
+
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: black;
+	align-items: left;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.hey {
+	margin-bottom: -20px;
+}
+
+Subnav {
+	text-align: center;
+
+}
+
+p {
+	font-size: 35px;
+}
+.manifesto {
+	margin-bottom: 0px;
+}
+.p-manifesto {
+	font-size: 28px;
+}
+
+a, Link, .title {
+	text-decoration: none;
+    background: linear-gradient(to top, rgba(240, 188, 75, 0.7) 35%, transparent 20%);
+    padding: 0 .3em !important;
+		color: black;
+}
+.center {
+	text-align: center;
+}
+.explorehead {
+	text-align: center;
+	font-size: 50px;
+}
+
+a:hover{
+    background: linear-gradient(to top, rgba(240, 188, 75, 0.7) 80%, transparent 40%);
+transition: all 0.3s ease;
+animation-timing-function: ease;
+
+}
+
+
+.a {
+	background-color: linear-gradient(45deg, blue, red);
+}
+.accent1 {
+  z-index: 0;
+  position: absolute;
+  left: 0;
+  width: 600px;
+  max-width: 100vw;
+}
+.accent2 {
+  z-index: 0;
+  position: absolute;
+  width: 600px;
+  right: 0;
+}
+
+@keyframes example {
+  from {left: -20px}
+  to {left: 20px;}
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1b22;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+	border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+	transition: 2s ease;
+}
+
+.streamlit {
+	height: 1600px !important;
+    position: absolute;
+    left: 0;
+		margin: 0 !important;
+		padding: 0 !important;
+    overflow: hidden;
+}
+
+@keyframes easein {
+	  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes easeinheader {
+	  0% {
+			opacity: 0;
+		}
+		30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes easeincontent {
+	  0% {
+			opacity: 0;
+		}
+		50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+.hey {
+    animation: easein ease 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.moving {
+    animation: easeinheader 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.pre {
+    animation: easeinheader 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.animate0 {
+	  animation: easeincontent ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.animate1 {
+	  animation: easeincontent ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.animate2 {
+	  animation: easeincontent ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.animate3 {
+	  animation: easeincontent ease 6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.animate4 {
+	  animation: easeincontent ease 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+.animate5 {
+	  animation: easeincontent ease 8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+.animate6 {
+	  animation: easeincontent ease 9s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+Explore {
+		padding: 0 !important;
+}
+
+.underline {
+		background-color: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);;
+}
+
+.aboutimage {
+	width: 400px;
+	height: auto;
+}
+
+td {
+	padding-right: 30px !important;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.solid {
+  border-top: 3px solid #bbb;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+.subnavigation {
+	text-align: left; display: inline-block;
+
+	padding-top: -100px;
+}
+
+h1 {
+	font-size: 70px;
+	margin-bottom: 15px;
+}
+
+Subnav {
+		padding-top: -100px;
+}
+
+@media (min-width: 601px) {
+	.subnavigation {
+	font-size: 24px;
+	}
+}
+
+@media (max-width: 600px) {
+
+	.subnavigation {
+	font-size: 18px;
+	}
+
+	h1 {
+		font-size: 40px;
+	}
+}
+
+.a {
+		background-color: linear-gradient(#e66465, #9198e5) !important; 
+}
+
+.transition {
+	padding: 0 !important;
+}
+
+.p-manifesto {
+	line-height: 150%; 
+}
+
+.refined {
+	margin-top: 3px;
+}
+
+
+.signiature {
+	font-family: 'Allura', cursive;
+	font-size: 30px;
+}
+
+.yourstruly {
+	margin-bottom: 150px !important;
+}
+
+@media (max-width: 1200px) {
+	.explorehead {
+		font-size: 40px;
+	}
+}
+
+.p-explore {
+	margin-bottom: 4px;
+	font-size: 30px;
+}
+
+.linkheader {
+	font-size: 30px;
+	margin-top: 50px;
+}
+
+.explorelinks {
+	padding-left: 0 !important;
+	margin-left: 0% !important;
+}
+
