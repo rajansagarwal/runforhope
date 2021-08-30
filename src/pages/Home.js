@@ -76,7 +76,7 @@ export default function Home() {
             <Col sm={8} className="animate0">
               <h5 className="manifesto linkheader">Summary</h5>
               <p className="p-manifesto">
-      <iframe className="video" src="https://www.youtube-nocookie.com/embed/TPRrPywxtRY" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+            <iframe className="video" src="https://www.youtube.com/embed/lOFpyvGaCP8" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
               </p>
             </Col>
             <Col sm={2}></Col>
