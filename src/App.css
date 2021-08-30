@@ -400,3 +400,8 @@ Subnav {
 	margin-left: 0% !important;
 }
 
+
+.video {
+	width: 100%;
+	height: 500px;
+}
