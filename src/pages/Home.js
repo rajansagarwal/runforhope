@@ -112,7 +112,7 @@ export default function Home() {
             <Col sm={8} className="animate0">
               <h5 className="manifesto linkheader">Get In Touch</h5>
               <p className="p-manifesto">
-                I would love to share more about my journey, the impact made and what everyone else can do to help. Visit <a href="heyrajan.com">heyrajan.com</a> to learn more.<br/><br/><hr className="solid"/><br/> Thank you all for your support over the past month. I could not have done it without you.
+                I would love to share more about my journey, the impact made and what everyone else can do to help. Visit <a href="https://heyrajan.com">heyrajan.com</a> to learn more.<br/><br/><hr className="solid"/><br/> Thank you all for your support over the past month. I could not have done it without you.
               </p>
             </Col>
             <Col sm={2}>
