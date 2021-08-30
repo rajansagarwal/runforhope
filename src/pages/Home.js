@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-grid-system";
-import InstagramEmbed from "react-instagram-embed";
 import "../App.css";
 
 export default function Home() {
